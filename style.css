@@ -102,19 +102,21 @@
   .searcher {
     display: flex;
     float: right;
-    position: relative;
+    position: fixed;
+    top: 110px;
+    right: 10px;
+    padding: 10px;
     margin-right: 4%;
     width: fit-content;
-    z-index: 800;
+    z-index: 800;}
 
-  }
 
   .holder {
     background-color: transparent;
     border: white solid 1px;
     border-radius: 20px;
-    color: white;
     padding: 15px, 24px;
+    color: white;
     
   }
    
@@ -126,3 +128,12 @@
     cursor: pointer;
 
   }
+
+.searcher input {
+    color: white; 
+    background-color: transparent; 
+    }
+
+.searcher input:focus {
+    color: white; 
+}
