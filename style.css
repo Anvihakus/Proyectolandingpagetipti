@@ -67,12 +67,12 @@
     
   }
   
-  main img {
+  .imagencasa {
     width: 100%;
     height: 100vh;
     object-fit: cover;
     object-position: top -300px right 0;
-    
+    z-index: -1;
 
   }
   
@@ -97,28 +97,32 @@
       object-position: center;
     }
   }
-  .searcher{
+ 
+
+  .searcher {
+    display: flex;
+    float: right;
     position: relative;
-    background-color: transparent;
+    margin-right: 4%;
+    width: fit-content;
+    z-index: 800;
+
   }
 
-  .searcher input {
+  .holder {
     background-color: transparent;
-    height: 50%;
-    width: 200px;
-    border: rgb(210, 10, 10) solid 1px;
-    border-radius: 10px;
-    padding: 15px, 16px;
-  }
-
-  .searcher input ::placeholder {
-    color: blue;
+    border: white solid 1px;
+    border-radius: 20px;
+    color: white;
+    padding: 15px, 24px;
     
   }
-   .lupa{
+   
+
+  .lupa {
     position: absolute;
-    width: 20px;
-    right: 10px;
-    top: 50%;
-    transform: translate(-10px,-50px);
-   }
+    right: 10%;
+    width: 15px;
+    cursor: pointer;
+
+  }
