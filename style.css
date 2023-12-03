@@ -72,10 +72,7 @@
     height: 100vh;
     object-fit: cover;
     object-position: top -300px right 0;
-    background: #050B2D;
-    background: -moz-linear-gradient(top, #050B2D 0%, #0C2F47 59%, #7D88C6 100%);
-    background: -webkit-linear-gradient(top, #050B2D 0%, #0C2F47 59%, #7D88C6 100%);
-    background: linear-gradient(to bottom, #050B2D 0%, #0C2F47 59%, #7D88C6 100%);
+    
 
   }
   
@@ -100,4 +97,28 @@
       object-position: center;
     }
   }
-  
+  .searcher{
+    position: relative;
+    background-color: transparent;
+  }
+
+  .searcher input {
+    background-color: transparent;
+    height: 50%;
+    width: 200px;
+    border: rgb(210, 10, 10) solid 1px;
+    border-radius: 10px;
+    padding: 15px, 16px;
+  }
+
+  .searcher input ::placeholder {
+    color: blue;
+    
+  }
+   .lupa{
+    position: absolute;
+    width: 20px;
+    right: 10px;
+    top: 50%;
+    transform: translate(-10px,-50px);
+   }
