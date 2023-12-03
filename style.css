@@ -115,25 +115,131 @@
     background-color: transparent;
     border: white solid 1px;
     border-radius: 20px;
-    padding: 15px, 24px;
-    color: white;
+    padding: 8px 18px;
     
   }
-   
+   .holder::placeholder {
+    color: white;
+   }
 
   .lupa {
     position: absolute;
-    right: 10%;
-    width: 15px;
+    right: 20px;
+    top: 15px;
+    width: 19px;
     cursor: pointer;
 
   }
 
-.searcher input {
-    color: white; 
-    background-color: transparent; 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.barravertical{
+position: absolute;
+top: 170px;  
+z-index: 100;
+  float: left;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.barravertical p{
+    font-family: sans-serif;
+  font-weight: 800;
+  font-size: smaller;
+  color: grey;
+  line-height: 1px;
+  width: 100%;
+  height: auto;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  margin-bottom: 10px;
+  
+}
+
+.barravertical .lineavertical{
+    position:relative;
+    top:8px;
+    bottom: 10px;
+    height: 10px;
+    border-left: 1px solid rgb(184, 181, 181);
+    margin-top: 10px;
+    
+    
+}
+
+.barravertical .social{
+    margin-top: 2px;
+    height: 15px;
+    width: 15px;
+}
+
+
+
+.Realstate {
+    display:flexbox;
+    position: relative;
+    z-index: 2;
+    height: fit-content;
+    font-style: normal;
+    font-weight: 450px;
+    background-color: transparent;
+    text-align: left;
+    margin-top: -250px;
+    margin-left: 90px;
+  }
+  
+  .h1 {
+    color: #0e1b1b;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 45px;
+    margin-left: 10px;
+    word-wrap: break-word;
+  }
+  
+   .maintit p {
+    color: #0b0b0b;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    word-wrap: break-word;
+    margin-top: 15px;
+  }
+
+
+
+
+
+
+
+
+
+
+.galeria2 span {
+color: orange;
+font-size: 20px;
+}
+
+.galeria2 h2 {
+    color: rgb(25, 25, 24);
+    font-size: 40px;
     }
 
-.searcher input:focus {
-    color: white; 
+.botonesgaleria2 .buttonmid {
+    font-weight: 10px;
+    padding: 10px, 14px;
+
+
+
 }
