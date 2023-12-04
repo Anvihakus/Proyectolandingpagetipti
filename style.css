@@ -190,31 +190,56 @@ z-index: 100;
     z-index: 2;
     height: fit-content;
     font-style: normal;
-    font-weight: 450px;
+    font-weight: 400;
     background-color: transparent;
     text-align: left;
     margin-top: -250px;
     margin-left: 90px;
+    color: white;
   }
   
-  .h1 {
-    color: #0e1b1b;
-    font-size: 50px;
+  .Realstate .luxury {
+    color:white;
+    font-size: 25px;
     font-style: normal;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 45px;
     margin-left: 10px;
     word-wrap: break-word;
   }
   
-   .maintit p {
-    color: #0b0b0b;
-    font-size: 60px;
+   .Realstate .realstate {
+    color:white;
+    font-size: 50px;
     font-style: normal;
     font-weight: 500;
     line-height: 45px;
     word-wrap: break-word;
-    margin-top: 15px;
+    
+  }
+
+.botonpropiedades {
+    position: inherit;
+    z-index: 2;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+.flechaderecha {
+    width: 30.498px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-right: 10px;
   }
 
 
@@ -222,15 +247,10 @@ z-index: 100;
 
 
 
-
-
-
-.galeria2 span {
-color: orange;
-font-size: 20px;
+.contenedor-imagesgal1 {
+    display: flex;
 }
 
-.galeria2 h2 {
-    color: rgb(25, 25, 24);
-    font-size: 40px;
-    }
+.contenedor-imagesgal2 {
+    display: flex;
+}
