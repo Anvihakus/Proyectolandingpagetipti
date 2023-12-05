@@ -469,12 +469,73 @@ z-index: 100;
   }
 
 
+  .art-curation-interior-design {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+}
+
+.art-curation-content {
+    flex-basis: 50%;
+    padding-right: 2rem; 
+}
+
+.art-curation-content h2 {
+    color: #a9a9a9; 
+    font-size: 1.2rem;
+}
+
+.art-curation-content h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.art-curation-content p {
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.gallery-controls .control {
+    background: none;
+    border: 2px solid #333; 
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.gallery-controls .contact-us {
+    background-color: #333; 
+    color: #fff;
+}
+
+.art-curation-image {
+    flex-basis: 50%;
+}
+
+.art-curation-image img {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
 
 
+@media (max-width: 768px) {
+    .art-curation-interior-design {
+        flex-direction: column;
+    }
 
+    .art-curation-content,
+    .art-curation-image {
+        flex-basis: 100%;
+    }
 
-
-
+    .art-curation-content {
+        padding-right: 0;
+    }
+}
 
   footer {
     background-color: black;
@@ -483,6 +544,10 @@ z-index: 100;
     justify-content: center;
     position: relative;
   
+  }
+
+  .logofooter {
+    size-adjust: 15px;
   }
   
   .news {
@@ -549,8 +614,9 @@ z-index: 100;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
+
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1040px) {
     #logo {
       display: none;
     }
