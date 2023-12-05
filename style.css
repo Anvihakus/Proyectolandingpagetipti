@@ -76,7 +76,7 @@
 
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 720px) {
     #logo {
       display: none;
     }
@@ -420,7 +420,12 @@ z-index: 100;
   margin: 5px 0;
 }
 
-
+@media (max-width: 720px) {
+    .contenedorpicsgal1,
+    .contenedorpicsgal2 {
+        flex-direction: column;
+    }
+}
 
 .SectionDevelopments{
     background-color: transparent;
@@ -472,7 +477,12 @@ z-index: 100;
     font-size: 20px, bold;
     
 }
-  
+
+@media (max-width: 720px) {
+    .contenedor-development-list {
+        grid-template-columns: 1fr;
+    }
+}
 
 
   .art-curation-interior-design {
@@ -530,7 +540,7 @@ z-index: 100;
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .art-curation-interior-design {
         flex-direction: column;
     }
@@ -624,7 +634,7 @@ z-index: 100;
   }
 
   
-  @media screen and (max-width: 1040px) {
+  @media screen and (max-width: 720px) {
     #logo {
       display: none;
     }
