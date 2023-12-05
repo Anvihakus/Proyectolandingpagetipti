@@ -258,9 +258,9 @@ z-index: 100;
   flex-direction: column;
   text-align: center;
   align-items: center;
-  max-width: 600px;
+  max-width: 400px;
   box-sizing: border-box;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   padding: 0 10px;
   
@@ -269,12 +269,12 @@ z-index: 100;
 .textosgal1,
 .textosgal2 {
   order: 2;
-  padding: 50px;
+  padding: 40px;
 
 }
 
 .subtitulo1,
-.subtitulo2 {
+.sub2 {
   display: flex;
   color: #DF991B;
   width: 689px;
@@ -284,11 +284,11 @@ z-index: 100;
   text-align: right;
   font-size: 40px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 240;
 }
 
 .titulo1,
-.titulo2 {
+.tit2 {
   display: flex;
   width: 776px;
   height: 99px;
@@ -298,7 +298,7 @@ z-index: 100;
   text-align: right;
   font-size: 80px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 480;
   line-height: 45px;
 }
 
@@ -395,18 +395,16 @@ z-index: 100;
   transition: 0.3s ease;
 }
 
-.pais {
+.paisg {
   color: #464547;
-  font-family: sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: 45px;
 }
 
-.ciudad {
+.ciudadg {
   color: #000;
-  font-family: sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -425,7 +423,7 @@ z-index: 100;
 
 
 .SectionDevelopments{
-    background-color: rgb(219, 223, 223);
+    background-color: transparent;
     padding: 50px 0 0 50px;
   }
   .contenedor-development-list{
@@ -435,11 +433,10 @@ z-index: 100;
   }
   .subtitulo2 {
     display: flex;
-    width: 554px;
-    height: 47px;
+    width: 500px;
+    height: 40px;
     justify-content: center;
     color: #DF991B;
-    font-family: sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -448,12 +445,11 @@ z-index: 100;
   
   .titulo2 {
     display: flex;
-    width: 676px;
-    height: 99px;
+    width: 500px;
+    height: 80px;
     justify-content: center;
     color: #000;
-    font-family: sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 500;
     line-height: 45px;
@@ -463,10 +459,20 @@ z-index: 100;
     flex-direction: column; 
     align-items: center; 
     justify-content: center; 
-    padding: 10px; 
+    padding: 2px; 
     margin: 0 auto; 
     
   }
+  .contenedor-development-list img {
+    align-items: center;
+    width: 360px;
+  }
+
+.contenedor-development-list .ciudad1 {
+    font-size: 20px, bold;
+    
+}
+  
 
 
   .art-curation-interior-design {
@@ -500,15 +506,17 @@ z-index: 100;
 
 .gallery-controls .control {
     background: none;
-    border: 2px solid #333; 
+    border: none; 
     padding: 0.5rem 1rem;
     margin-right: 1rem;
     cursor: pointer;
 }
 
 .gallery-controls .contact-us {
-    background-color: #333; 
-    color: #fff;
+    border: 2px solid #333;
+    background-color: transparent; 
+    color: #0e0d0d;
+    border-radius: 20px;
 }
 
 .art-curation-image {
@@ -546,8 +554,8 @@ z-index: 100;
   
   }
 
-  .logofooter {
-    size-adjust: 15px;
+  .footer-text .logofooter {
+    size-adjust: 10px;
   }
   
   .news {
